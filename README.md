@@ -4,23 +4,35 @@
 
 ## Contents
 ### Four .csv data files:
-  dispersal_selection_data.csv
-  dispersal_selection_Sexing_data.csv
-  F1_dispersal_assay.csv
-  inbred_line_dispersal_assay.csv
+dispersal_selection_data.csv
+
+dispersal_selection_Sexing_data.csv
+
+F1_dispersal_assay.csv
+
+inbred_line_dispersal_assay.csv
   
   
 ### Ten .R scripts
-  dispersal_selection_analysis.R
-  sex_of_dispersers.R
-  inbred_line_disp.R
-  test_dispersal_prob_equations.R
-  dispersal_sim_functions_nlocus.R
-  dispersal_sim_run.R
-  comparing_expt_to_sim_data.R
-  dispersal_sim_crosses.R
-  inbreeding_sim_nloci_extra_gen.R
-  inbreeding_sim_analysis.R
+dispersal_selection_analysis.R
+
+sex_of_dispersers.R
+
+inbred_line_disp.R
+
+test_dispersal_prob_equations.R
+
+dispersal_sim_functions_nlocus.R
+
+dispersal_sim_run.R
+
+comparing_expt_to_sim_data.R
+
+dispersal_sim_crosses.R
+
+inbreeding_sim_nloci_extra_gen.R
+
+inbreeding_sim_analysis.R
   
   
 ## Description of .R scripts
@@ -30,10 +42,6 @@ Uses data in "dispersal_selection_data.csv" to analyse a 5 generation artificial
 
 ### sex_of_dispersers.R
 Uses data in "dispersal_selection_Sexing_data.csv" to analyse the sex ratios among dispersal phenotypes
-
-
-### inbred_line_disp.R
-Uses functions from "dispersal_sim_functions_nlocus.R" to simulate the behaviour of cross offspring of simulated dispersal lines, then compares these to the dispersal behaviour of crosses between experimental dispersal lines, using data from "inbred_line_dispersal_assay.csv"
 
 
 ### test_dispersal_prob_equations.R
@@ -62,4 +70,8 @@ Simulates the inbreeding design used to generate experimentally inbred T.castane
 
 ### inbreeding_sim_analysis.R
 Uses the output from "inbreeding_sim_nloci_extra_gen.R" to compare the dispersal of lines inbred under different assumes genetic architectures
+
+
+### inbred_line_disp.R
+Uses functions from "dispersal_sim_functions_nlocus.R" to simulate the behaviour of cross offspring of simulated dispersal lines, then compares these to the dispersal behaviour of crosses between experimental dispersal lines, using data from "inbred_line_dispersal_assay.csv"
 
